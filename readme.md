@@ -42,16 +42,16 @@ dockermultiflaskserver_serious_1   /bin/sh -c ./server start_ ...   Up      8001
 
 Now, when you go to 127.0.0.1, nginx will redirect you to the fun server:
 
-[fun](screenshots/fun.png)
+![fun](screenshots/fun.png)
 
 If we go to the fun server's /bingo page, we can pretend to play bingo!
 
-[fun bingo](screenshots/fun_bingo.png)
+![fun bingo](screenshots/fun_bingo.png)
 
 And when you go to 0.0.0.0, nginx redirects you to the serious server:
 
-[serious](screenshots/serious.png)
+![serious](screenshots/serious.png)
 
 Serious bingo is less fun.
 
-[serious bingo](screenshots/serious_bingo.png)
+![serious bingo](screenshots/serious_bingo.png)
