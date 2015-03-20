@@ -1,0 +1,11 @@
+nginx:
+    build: .
+    ports:
+        - "80:80"
+    links:
+        - fun
+        - serious
+fun:
+    build: ./funserver
+serious:
+    build: ./seriousserver
