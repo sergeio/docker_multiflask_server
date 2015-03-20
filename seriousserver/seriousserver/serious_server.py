@@ -8,7 +8,7 @@ app = Flask(__name__, static_folder="static")
 
 @app.route('/')
 def serious():
-    return 'This is the serious server!'
+    return 'This is the serious server.'
 
 
 @app.route('/bingo')
